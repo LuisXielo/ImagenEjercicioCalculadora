@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="410dp"
+        android:layout_height="326dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_1" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_2" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_5" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_7" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_suma"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_suma" />
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_0" />
+
+            <Button
+                android:id="@+id/btn_resta"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_resta" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_multi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_multi" />
+
+            <Button
+                android:id="@+id/btn_igual"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Resultado"
+                android:text="@string/btn_igual" />
+
+            <Button
+                android:id="@+id/btn_divi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4sp"
+                android:layout_weight="1"
+                android:onClick="Operaciones"
+                android:text="@string/btn_dividir" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_restaurar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Restaurar"
+                android:text="@string/btn_restaurar" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="408dp"
+        android:layout_height="108dp"
+        android:text="@string/Tv1"
+        android:textSize="60sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_valor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/tv_valor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/tv_valor1"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/tv_signo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        android:text="vacio"
+        app:layout_constraintStart_toEndOf="@+id/tv_valor2"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
